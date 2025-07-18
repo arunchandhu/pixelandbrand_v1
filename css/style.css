@@ -1174,7 +1174,7 @@ footer {
 }
 
 .quote .background-image {
-	background: url(../images/image3.jpg) no-repeat;
+	background:linear-gradient(to top,rgba(0,0,0,0.7) 90%, rgba(0,0,0,0.0)0%), url(../images/image3.jpg) no-repeat;
 	background-size: cover;
 }
 
@@ -1416,7 +1416,8 @@ footer {
 	float: left;
 	letter-spacing: 2px;
 	font-family: 'Playfair Display', serif;
-	font-size: 13px;
+	font-size: 46px;
+	font-weight: 600;
 	opacity: 0.6;
 }
 
@@ -1850,7 +1851,7 @@ footer {
 }
 
 footer .logo {
-	width: 107px;
+	width: 150px;
 	display: inline-block;
 	margin-bottom: 20px;
 	margin-top: 100px;
